@@ -13,6 +13,7 @@ cache:
     - '$HOME/.m2/repository'
     - '$HOME/.gradle'
 
+# Permission Denied 오류 해결을 위해 추가
 before_install:
   - chmod +x gradlew
 
