@@ -165,4 +165,6 @@ $RECYCLE.BIN/
 .idea/misc.xml
 .idea/vcs.xml
 
+!gradle/**
+
 application-oauth.properties
