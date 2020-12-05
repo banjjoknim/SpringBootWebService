@@ -17,7 +17,7 @@ apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
 
 group 'com.banjjoknim.book'
-version '1.0.1-SNAPSHOT'
+version '1.0-SNAPSHOT'
 sourceCompatibility = 1.11
 
 repositories {
@@ -35,5 +35,4 @@ dependencies {
     compile('org.springframework.boot:spring-boot-starter-oauth2-client')
     compile('org.springframework.session:spring-session-jdbc')
     testCompile('org.springframework.security:spring-security-test')
-    compile('org.mariadb.jdbc:mariadb-java-client')
 }
