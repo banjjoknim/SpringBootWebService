@@ -25,7 +25,7 @@ function find_idle_profile() {
 # 쉬고 있는 profile의 port 찾기
 
 function find_idle_port() {
-    IDLE_PROFILE=${find_idle_profile}
+    IDLE_PROFILE=$(find_idle_profile)
 
     if [ ${IDLE_PROFILE} == real1 ]
     then
